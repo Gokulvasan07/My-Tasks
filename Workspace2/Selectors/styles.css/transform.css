@@ -1,0 +1,31 @@
+body{
+
+   background-color: sandybrown;
+}
+.a:hover{
+    /* transform: translate(250px,250px); */
+    transform: rotateZ(900deg);
+}
+.a{
+    border:20px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 300px;
+    background-color: sandybrown;
+    border-bottom: 20px solid purple;
+    position: absolute;
+    transition: 3s;
+}
+button:hover{
+    transform: scale(1.1,1.1);
+}
+.b{
+    background-color: brown;
+    height: 180px;
+    width: 100px;
+    position: absolute;
+    left: 50%;;
+}
+.b:hover{
+    transform: skewX(200deg);
+}

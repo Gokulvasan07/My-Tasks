@@ -1,0 +1,12 @@
+#mydiv{
+    background-image: url(../pic.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    height: 500px;
+    background-color:hsl(0, 30%, 40%);
+    /* background-color:hsla(0, 30%, 40%,0.1) */
+    background-color: #efa0a0;
+}

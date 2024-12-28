@@ -1,0 +1,41 @@
+#nav{
+    border:1px solid black;
+    background-color:black;
+    color: aliceblue;
+    position: sticky;
+    top:0px;
+    z-index: +2;
+}
+
+.child{
+    display: inline-block;
+    width: 210px;
+    height:60px;
+    text-align: center;
+    line-height: 60px;
+}
+#home,#contact{
+    border: 1px solid black;
+    height: 100vh;
+}
+#register{
+    position: relative;
+}
+#Register{
+    position: relative;
+}
+#popup{
+    display: none;
+    width: 210px;
+    text-align: center;
+    background-color: aquamarine;
+    position:absolute;
+    top:60px;
+    right: 0px;
+    border: 1px solid black;
+
+}
+a:hover+#popup{
+    position: absolute;
+    display:inline-block;
+}

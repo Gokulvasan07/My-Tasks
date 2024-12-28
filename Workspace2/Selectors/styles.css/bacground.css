@@ -1,0 +1,41 @@
+body{
+    background-image: url("../back.jpg"),url("../back.jpg"),url("../back.jpg");
+    height: 90vh;
+    border: 15px dashed  black;
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-position: center center,top left,bottom right;
+    /* background-attachment: fixed; */
+    padding: 40px;
+    background-clip: content-box;
+}
+p{
+    font-size: larger;
+    color: blue;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+/* #a{
+    
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+    background-clip: content-box;
+
+}
+#b{
+   
+    position: absolute;
+    bottom: 5px;
+    right: 40px;
+    z-index: -1;
+    background-clip: content-box;
+
+} */
+div>#xy{
+  background-image: url("../back.jpg");
+  background-repeat: no-repeat;
+}

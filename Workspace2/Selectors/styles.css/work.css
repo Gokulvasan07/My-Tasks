@@ -1,0 +1,28 @@
+/* div>p:first-child{
+    background-color: aqua;
+} */
+ /* div>p:last-child{
+    background-color: aqua;
+} */
+
+/* div>p:nth-child(2){
+    background-color: aqua;
+}
+div>p:nth-child(3){
+    background-color: aqua;
+} */
+/* div>p:nth-child(even){
+    background-color: aqua;
+} */
+/* div>i:first-of-type{
+    background-color: aqua;
+} */
+/* div>i:first-of-type{
+    background-color: aqua;
+} */
+/* div>i:last-of-type{
+    background-color: aqua;
+} */
+/* div>i:nth-of-type(3){
+    background-color: aqua;
+} */

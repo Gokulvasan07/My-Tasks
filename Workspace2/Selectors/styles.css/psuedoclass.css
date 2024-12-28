@@ -1,0 +1,23 @@
+/* a:link{
+    color: aqua;
+}
+a:visited{
+    color:red;
+}
+a:active{
+    color: yellow;
+} */
+ img:hover{
+    /* translate: 100px; */
+    /* display:block; */
+   opacity: 0.2;
+    
+  
+    /* content: "This is para"; */
+    
+ }
+ img{
+    width: 150px;
+    height: 150px; 
+  
+ }

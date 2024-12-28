@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Table</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Data Base</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <td><label for="name">Enter a Name: </label></td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="branch">Customer Branch: </label></td>
+                <td><input type="text" id="branch"></td>
+            </tr>
+            <tr>
+                <td><label for="checkIn">Check in: </label></td>
+                <td><input type="time" id="checkIn"></td>
+            </tr>
+            <tr>
+                <td><label for="checkOut">Check out: </label></td>
+                <td><input type="time" id="checkOut"></td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <button id="b1" style="padding: 1rem; background-color: aliceblue; color: black;">Submit</button>
+
+    <h2>Entries:</h2>
+    <table border="1" id="dataTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Branch</th>
+                <th>Check In</th>
+                <th>Check Out</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Input Fields</title>
+</head>
+<body>
+    <!-- Input to enter number of fields -->
+    <div>
+        <label for="numInput">Enter number of fields:</label>
+        <input type="number" id="numInput">
+        <button id="generateBtn">Generate Fields</button>
+    </div>
+
+    <!-- Container to show generated input fields -->
+    <div id="div1" style="display:none;">
+        <form id="inputForm">
+            <div id="inputFieldsContainer"></div>
+            <button type="submit">Submit Sentences</button>
+        </form>
+    </div>
+
+    <!-- Second input for the number container -->
+    <div id="secondContainer" style="display:none;">
+        <label for="alertField">Enter field number to alert:</label>
+        <input type="number" id="alertField">
+        <button id="alertBtn">Show Alert</button>
+    </div>
+
+    <script src="script.js">
+     
+    </script>
+</body>
+</html>

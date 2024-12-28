@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+      }
+      #mydiv {
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+
+      }
+      #one-div {
+        position: relative;
+        height: 100vh;
+        padding-left: 30px;
+        padding-top: 30px;
+      }
+      button {
+        padding: 10px 20px;
+      }
+      #second-div {
+        display: none;
+        height: 100vh;
+        padding: 15% 30%;
+        background-color: rgba(65, 10, 207, 0.5);
+        line-height: 50px;
+      }
+    </style>
+
+    </style>
+  </head>
+  <body>
+
+
+
+    <div id="one-div">
+      num1
+      <input type="text" id="input1" /><br />
+      <br />
+      num2
+      <input type="text" id="input2" /><br />
+      <br />
+      <button id="add">ADD</button>
+      <button id="sub">SUB</button>
+      <button id="divide">DIVISION</button>
+    </div>
+    <div id="second-div">
+      <div id="textcenter">
+        <h1 id="head3">CALC IS OVER</h1>
+        <button id="resett">Reset</button>
+        <h3 id="head1"></h3>
+        <h3 id="sub-head1"></h3>
+        <h3 id="sub-head2"></h3>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
